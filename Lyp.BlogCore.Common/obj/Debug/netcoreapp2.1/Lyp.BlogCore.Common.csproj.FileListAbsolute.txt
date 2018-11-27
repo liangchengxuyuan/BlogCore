@@ -1,0 +1,9 @@
+G:\Blog.Core\Lyp.BlogCore.Common\bin\Debug\netcoreapp2.1\Lyp.BlogCore.Common.deps.json
+G:\Blog.Core\Lyp.BlogCore.Common\bin\Debug\netcoreapp2.1\Lyp.BlogCore.Common.dll
+G:\Blog.Core\Lyp.BlogCore.Common\bin\Debug\netcoreapp2.1\Lyp.BlogCore.Common.pdb
+G:\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.csprojAssemblyReference.cache
+G:\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.csproj.CoreCompileInputs.cache
+G:\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.AssemblyInfoInputs.cache
+G:\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.AssemblyInfo.cs
+G:\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.dll
+G:\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.pdb

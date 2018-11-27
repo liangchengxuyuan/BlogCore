@@ -1,0 +1,12 @@
+G:\Blog.Core\Lyp.BlogCore.IRepository\bin\Debug\netcoreapp2.1\Lyp.BlogCore.IRepository.deps.json
+G:\Blog.Core\Lyp.BlogCore.IRepository\bin\Debug\netcoreapp2.1\Lyp.BlogCore.IRepository.dll
+G:\Blog.Core\Lyp.BlogCore.IRepository\bin\Debug\netcoreapp2.1\Lyp.BlogCore.IRepository.pdb
+G:\Blog.Core\Lyp.BlogCore.IRepository\bin\Debug\netcoreapp2.1\Lyp.BlogCore.Models.dll
+G:\Blog.Core\Lyp.BlogCore.IRepository\bin\Debug\netcoreapp2.1\Lyp.BlogCore.Models.pdb
+G:\Blog.Core\Lyp.BlogCore.IRepository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IRepository.csprojAssemblyReference.cache
+G:\Blog.Core\Lyp.BlogCore.IRepository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IRepository.csproj.CoreCompileInputs.cache
+G:\Blog.Core\Lyp.BlogCore.IRepository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IRepository.AssemblyInfoInputs.cache
+G:\Blog.Core\Lyp.BlogCore.IRepository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IRepository.AssemblyInfo.cs
+G:\Blog.Core\Lyp.BlogCore.IRepository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IRepository.csproj.CopyComplete
+G:\Blog.Core\Lyp.BlogCore.IRepository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IRepository.dll
+G:\Blog.Core\Lyp.BlogCore.IRepository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IRepository.pdb

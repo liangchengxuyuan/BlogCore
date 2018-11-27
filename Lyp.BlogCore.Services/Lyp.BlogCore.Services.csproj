@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lyp.BlogCore.IRepository\Lyp.BlogCore.IRepository.csproj" />
+    <ProjectReference Include="..\Lyp.BlogCore.IServices\Lyp.BlogCore.IServices.csproj" />
+    <ProjectReference Include="..\Lyp.BlogCore.Models\Lyp.BlogCore.Models.csproj" />
+  </ItemGroup>
+
+</Project>
