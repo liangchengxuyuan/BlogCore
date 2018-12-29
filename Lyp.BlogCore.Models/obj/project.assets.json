@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.Models\\Lyp.BlogCore.Models.csproj",
+      "projectUniqueName": "E:\\Blog.Core\\Lyp.BlogCore.Models\\Lyp.BlogCore.Models.csproj",
       "projectName": "Lyp.BlogCore.Models",
-      "projectPath": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.Models\\Lyp.BlogCore.Models.csproj",
+      "projectPath": "E:\\Blog.Core\\Lyp.BlogCore.Models\\Lyp.BlogCore.Models.csproj",
       "packagesPath": "C:\\Users\\Tang\\.nuget\\packages\\",
-      "outputPath": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.Models\\obj\\",
+      "outputPath": "E:\\Blog.Core\\Lyp.BlogCore.Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

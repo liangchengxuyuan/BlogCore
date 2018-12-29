@@ -1501,11 +1501,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.Common\\Lyp.BlogCore.Common.csproj",
+      "projectUniqueName": "E:\\Blog.Core\\Lyp.BlogCore.Common\\Lyp.BlogCore.Common.csproj",
       "projectName": "Lyp.BlogCore.Common",
-      "projectPath": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.Common\\Lyp.BlogCore.Common.csproj",
+      "projectPath": "E:\\Blog.Core\\Lyp.BlogCore.Common\\Lyp.BlogCore.Common.csproj",
       "packagesPath": "C:\\Users\\Tang\\.nuget\\packages\\",
-      "outputPath": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.Common\\obj\\",
+      "outputPath": "E:\\Blog.Core\\Lyp.BlogCore.Common\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

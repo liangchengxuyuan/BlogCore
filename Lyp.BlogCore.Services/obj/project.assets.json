@@ -741,11 +741,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.Services\\Lyp.BlogCore.Services.csproj",
+      "projectUniqueName": "E:\\Blog.Core\\Lyp.BlogCore.Services\\Lyp.BlogCore.Services.csproj",
       "projectName": "Lyp.BlogCore.Services",
-      "projectPath": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.Services\\Lyp.BlogCore.Services.csproj",
+      "projectPath": "E:\\Blog.Core\\Lyp.BlogCore.Services\\Lyp.BlogCore.Services.csproj",
       "packagesPath": "C:\\Users\\Tang\\.nuget\\packages\\",
-      "outputPath": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.Services\\obj\\",
+      "outputPath": "E:\\Blog.Core\\Lyp.BlogCore.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -764,14 +764,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.IRepository\\Lyp.BlogCore.IRepository.csproj": {
-              "projectPath": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.IRepository\\Lyp.BlogCore.IRepository.csproj"
+            "E:\\Blog.Core\\Lyp.BlogCore.IRepository\\Lyp.BlogCore.IRepository.csproj": {
+              "projectPath": "E:\\Blog.Core\\Lyp.BlogCore.IRepository\\Lyp.BlogCore.IRepository.csproj"
             },
-            "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.IServices\\Lyp.BlogCore.IServices.csproj": {
-              "projectPath": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.IServices\\Lyp.BlogCore.IServices.csproj"
+            "E:\\Blog.Core\\Lyp.BlogCore.IServices\\Lyp.BlogCore.IServices.csproj": {
+              "projectPath": "E:\\Blog.Core\\Lyp.BlogCore.IServices\\Lyp.BlogCore.IServices.csproj"
             },
-            "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.Models\\Lyp.BlogCore.Models.csproj": {
-              "projectPath": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.Models\\Lyp.BlogCore.Models.csproj"
+            "E:\\Blog.Core\\Lyp.BlogCore.Models\\Lyp.BlogCore.Models.csproj": {
+              "projectPath": "E:\\Blog.Core\\Lyp.BlogCore.Models\\Lyp.BlogCore.Models.csproj"
             }
           }
         }
