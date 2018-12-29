@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Lyp.BlogCore.IServices/1.0.0": {
+        "dependencies": {
+          "Lyp.BlogCore.Models": "1.0.0"
+        },
+        "runtime": {
+          "Lyp.BlogCore.IServices.dll": {}
+        }
+      },
+      "Lyp.BlogCore.Models/1.0.0": {
+        "runtime": {
+          "Lyp.BlogCore.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lyp.BlogCore.IServices/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Lyp.BlogCore.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

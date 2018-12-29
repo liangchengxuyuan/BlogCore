@@ -10,3 +10,15 @@ G:\Blog.Core\Lyp.BlogCore.IServices\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IServic
 G:\Blog.Core\Lyp.BlogCore.IServices\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IServices.csproj.CopyComplete
 G:\Blog.Core\Lyp.BlogCore.IServices\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IServices.dll
 G:\Blog.Core\Lyp.BlogCore.IServices\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IServices.pdb
+F:\G盘文件\Blog.Core\Lyp.BlogCore.IServices\bin\Debug\netcoreapp2.1\Lyp.BlogCore.IServices.deps.json
+F:\G盘文件\Blog.Core\Lyp.BlogCore.IServices\bin\Debug\netcoreapp2.1\Lyp.BlogCore.IServices.dll
+F:\G盘文件\Blog.Core\Lyp.BlogCore.IServices\bin\Debug\netcoreapp2.1\Lyp.BlogCore.IServices.pdb
+F:\G盘文件\Blog.Core\Lyp.BlogCore.IServices\bin\Debug\netcoreapp2.1\Lyp.BlogCore.Models.dll
+F:\G盘文件\Blog.Core\Lyp.BlogCore.IServices\bin\Debug\netcoreapp2.1\Lyp.BlogCore.Models.pdb
+F:\G盘文件\Blog.Core\Lyp.BlogCore.IServices\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IServices.csprojAssemblyReference.cache
+F:\G盘文件\Blog.Core\Lyp.BlogCore.IServices\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IServices.csproj.CoreCompileInputs.cache
+F:\G盘文件\Blog.Core\Lyp.BlogCore.IServices\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IServices.AssemblyInfoInputs.cache
+F:\G盘文件\Blog.Core\Lyp.BlogCore.IServices\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IServices.AssemblyInfo.cs
+F:\G盘文件\Blog.Core\Lyp.BlogCore.IServices\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IServices.csproj.CopyComplete
+F:\G盘文件\Blog.Core\Lyp.BlogCore.IServices\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IServices.dll
+F:\G盘文件\Blog.Core\Lyp.BlogCore.IServices\obj\Debug\netcoreapp2.1\Lyp.BlogCore.IServices.pdb

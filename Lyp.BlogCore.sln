@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lyp.BlogCore.Repository", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lyp.BlogCore.Services", "Lyp.BlogCore.Services\Lyp.BlogCore.Services.csproj", "{78721A40-7095-4454-BCB8-3E84A9BD6777}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyp.BlogCore.Web", "Lyp.BlogCore.Web\Lyp.BlogCore.Web.csproj", "{8E1C9960-E2C0-4250-A117-F759C58E1A49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lyp.BlogCore.Web", "Lyp.BlogCore.Web\Lyp.BlogCore.Web.csproj", "{8E1C9960-E2C0-4250-A117-F759C58E1A49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lyp.BlogCore.Api", "Lyp.BlogCore.Api\Lyp.BlogCore.Api.csproj", "{3B4004C3-9A9A-4628-9A62-CEFC7DE0E789}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{8E1C9960-E2C0-4250-A117-F759C58E1A49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E1C9960-E2C0-4250-A117-F759C58E1A49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E1C9960-E2C0-4250-A117-F759C58E1A49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B4004C3-9A9A-4628-9A62-CEFC7DE0E789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4004C3-9A9A-4628-9A62-CEFC7DE0E789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4004C3-9A9A-4628-9A62-CEFC7DE0E789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4004C3-9A9A-4628-9A62-CEFC7DE0E789}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

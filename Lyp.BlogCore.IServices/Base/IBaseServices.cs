@@ -10,6 +10,7 @@ namespace Lyp.BlogCore.IServices.Base
     {
         Task<List<TEntity>> Query();
 
+        List<TEntity> QueryWhere(Expression<Func<TEntity, bool>> predicate);
         //Task<List<TEntity>> Query(string strWhere);
         Task<IEnumerable<TEntity>> QueryById(Expression<Func<TEntity, bool>> whereExpression);
 
@@ -19,13 +20,13 @@ namespace Lyp.BlogCore.IServices.Base
 
         Task<List<TEntity>> QueryOrder(Expression<Func<TEntity, bool>> whereExpression, Expression<Func<TEntity, object>> orderByExpression, bool isAsc = true);
 
-        Task<List<TEntity>> QueryPage(Expression<Func<TEntity, bool>> whereExpression, Expression<Func<TEntity, bool>> orderByExpression, int intPageIndex, int intPageSize = 20, bool isAsc = true);
+        Task<List<TEntity>> QueryPage<TKey>(Expression<Func<TEntity, bool>> whereExpression, Expression<Func<TEntity, TKey>> orderByExpression, int intPageIndex, int intPageSize = 20, bool isAsc = true);
 
         //Task<List<TEntity>> QueryById(object objId);
 
         //Task<TEntity> QueryByIds(object[] lstIds);
 
-        Task<int> Add(TEntity model);
+        Task<bool> Add(TEntity model);
 
         Task<bool> DeleteById(object objId);
 

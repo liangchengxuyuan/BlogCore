@@ -3374,11 +3374,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Blog.Core\\Lyp.BlogCore.Repository\\Lyp.BlogCore.Repository.csproj",
+      "projectUniqueName": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.Repository\\Lyp.BlogCore.Repository.csproj",
       "projectName": "Lyp.BlogCore.Repository",
-      "projectPath": "G:\\Blog.Core\\Lyp.BlogCore.Repository\\Lyp.BlogCore.Repository.csproj",
+      "projectPath": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.Repository\\Lyp.BlogCore.Repository.csproj",
       "packagesPath": "C:\\Users\\Tang\\.nuget\\packages\\",
-      "outputPath": "G:\\Blog.Core\\Lyp.BlogCore.Repository\\obj\\",
+      "outputPath": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.Repository\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3397,11 +3397,11 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "G:\\Blog.Core\\Lyp.BlogCore.IRepository\\Lyp.BlogCore.IRepository.csproj": {
-              "projectPath": "G:\\Blog.Core\\Lyp.BlogCore.IRepository\\Lyp.BlogCore.IRepository.csproj"
+            "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.IRepository\\Lyp.BlogCore.IRepository.csproj": {
+              "projectPath": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.IRepository\\Lyp.BlogCore.IRepository.csproj"
             },
-            "G:\\Blog.Core\\Lyp.BlogCore.Models\\Lyp.BlogCore.Models.csproj": {
-              "projectPath": "G:\\Blog.Core\\Lyp.BlogCore.Models\\Lyp.BlogCore.Models.csproj"
+            "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.Models\\Lyp.BlogCore.Models.csproj": {
+              "projectPath": "F:\\G盘文件\\Blog.Core\\Lyp.BlogCore.Models\\Lyp.BlogCore.Models.csproj"
             }
           }
         }

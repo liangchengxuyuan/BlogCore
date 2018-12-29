@@ -5,12 +5,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.3.1" />
+    <PackageReference Include="Autofac.Extras.DynamicProxy" Version="4.5.0" />
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="log4net" Version="2.0.8" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Lyp.BlogCore.Common\Lyp.BlogCore.Common.csproj" />
     <ProjectReference Include="..\Lyp.BlogCore.IServices\Lyp.BlogCore.IServices.csproj" />
     <ProjectReference Include="..\Lyp.BlogCore.Models\Lyp.BlogCore.Models.csproj" />
     <ProjectReference Include="..\Lyp.BlogCore.Repository\Lyp.BlogCore.Repository.csproj" />

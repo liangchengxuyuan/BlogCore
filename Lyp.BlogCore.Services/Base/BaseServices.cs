@@ -11,7 +11,7 @@ namespace Lyp.BlogCore.Services.Base
     public class BaseServices<TEntity> : IBaseServices<TEntity> where TEntity : class, new()
     {
         public IBaseRepository<TEntity> baseDal;
-        public async Task<int> Add(TEntity model)
+        public async Task<bool> Add(TEntity model)
         {
             return await baseDal.Add(model);
         }
@@ -35,7 +35,10 @@ namespace Lyp.BlogCore.Services.Base
         {
             return await baseDal.Query();
         }
-
+        public List<TEntity> QueryWhere(Expression<Func<TEntity, bool>> predicate)
+        {
+            return baseDal.QueryWhere(predicate);
+        }
         public async Task<IEnumerable<TEntity>> QueryById(Expression<Func<TEntity, bool>> whereExpression)
         {
             return await baseDal.QueryById(whereExpression);
@@ -50,7 +53,7 @@ namespace Lyp.BlogCore.Services.Base
             return await baseDal.QueryOrder(whereExpression, orderByExpression, isAsc);
         }
 
-        public async Task<List<TEntity>> QueryPage(Expression<Func<TEntity, bool>> whereExpression, Expression<Func<TEntity, bool>> orderByExpression, int intPageIndex, int intPageSize = 20, bool isAsc = true)
+        public async Task<List<TEntity>> QueryPage<TKey>(Expression<Func<TEntity, bool>> whereExpression, Expression<Func<TEntity, TKey>> orderByExpression, int intPageIndex, int intPageSize = 20, bool isAsc = true)
         {
             return await baseDal.QueryPage(whereExpression, orderByExpression, intPageIndex, intPageSize, isAsc);
         }

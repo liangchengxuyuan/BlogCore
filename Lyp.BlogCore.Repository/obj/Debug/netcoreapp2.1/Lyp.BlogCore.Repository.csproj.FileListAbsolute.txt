@@ -12,3 +12,17 @@ G:\Blog.Core\Lyp.BlogCore.Repository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Reposi
 G:\Blog.Core\Lyp.BlogCore.Repository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Repository.csproj.CopyComplete
 G:\Blog.Core\Lyp.BlogCore.Repository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Repository.dll
 G:\Blog.Core\Lyp.BlogCore.Repository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Repository.pdb
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Repository\bin\Debug\netcoreapp2.1\Lyp.BlogCore.Repository.deps.json
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Repository\bin\Debug\netcoreapp2.1\Lyp.BlogCore.Repository.dll
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Repository\bin\Debug\netcoreapp2.1\Lyp.BlogCore.Repository.pdb
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Repository\bin\Debug\netcoreapp2.1\Lyp.BlogCore.IRepository.dll
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Repository\bin\Debug\netcoreapp2.1\Lyp.BlogCore.Models.dll
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Repository\bin\Debug\netcoreapp2.1\Lyp.BlogCore.IRepository.pdb
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Repository\bin\Debug\netcoreapp2.1\Lyp.BlogCore.Models.pdb
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Repository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Repository.csprojAssemblyReference.cache
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Repository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Repository.csproj.CoreCompileInputs.cache
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Repository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Repository.AssemblyInfoInputs.cache
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Repository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Repository.AssemblyInfo.cs
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Repository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Repository.csproj.CopyComplete
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Repository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Repository.dll
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Repository\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Repository.pdb

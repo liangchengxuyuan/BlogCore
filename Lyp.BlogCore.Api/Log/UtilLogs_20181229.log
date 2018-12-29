@@ -1,0 +1,29 @@
+【异常时间】：2018-12-29 14:23:49,143 
+异常位置：BlogArticleController.GetBlogArticle异常消息：Error converting value 10 to type 'System.Collections.Generic.List`1[Lyp.BlogCore.Models.Models.BlogArticle]'. Path '', line 1, position 2.
+--------------------------------------------------------------------
+【异常时间】：2018-12-29 14:24:35,293 
+异常位置：BlogArticleController.GetBlogArticle异常消息：Error converting value 10 to type 'System.Collections.Generic.List`1[Lyp.BlogCore.Models.Models.BlogArticle]'. Path '', line 1, position 2.
+--------------------------------------------------------------------
+【异常时间】：2018-12-29 14:29:02,950 
+异常位置：BlogArticleController.GetBlogArticle异常消息：Error converting value 10 to type 'Lyp.BlogCore.Models.Models.BlogArticle'. Path '', line 1, position 2.
+--------------------------------------------------------------------
+【异常时间】：2018-12-29 14:33:38,354 
+异常位置：BlogArticleController.GetBlogArticle异常消息：Cannot deserialize the current JSON object (e.g. {"name":"value"}) into type 'System.Collections.Generic.List`1[Lyp.BlogCore.Models.Models.BlogArticle]' because the type requires a JSON array (e.g. [1,2,3]) to deserialize correctly.
+To fix this error either change the JSON to a JSON array (e.g. [1,2,3]) or change the deserialized type so that it is a normal .NET type (e.g. not a primitive type like integer, not a collection type like an array or List<T>) that can be deserialized from a JSON object. JsonObjectAttribute can also be added to the type to force it to deserialize from a JSON object.
+Path 'bID', line 1, position 7.
+--------------------------------------------------------------------
+【异常时间】：2018-12-29 14:37:01,512 
+异常位置：BlogArticleController.GetBlogArticle异常消息：Error converting value 10 to type 'System.Collections.Generic.List`1[Lyp.BlogCore.Models.Models.BlogArticle]'. Path '', line 1, position 2.
+--------------------------------------------------------------------
+【异常时间】：2018-12-29 15:49:59,256 
+异常位置：BlogArticleController.GetBlogArticle异常消息：ERR Error compiling script (new function): user_script:1: unexpected symbol near '�' 
+--------------------------------------------------------------------
+【异常时间】：2018-12-29 15:53:47,402 
+异常位置：BlogArticleController.GetBlogArticle异常消息：ERR Error compiling script (new function): user_script:1: malformed number near '123.207.50.125' 
+--------------------------------------------------------------------
+【异常时间】：2018-12-29 16:00:58,941 
+异常位置：BlogArticleController.GetBlogArticle异常消息：ERR Error running script (call to f_4add507602d177bfce49ad4ac8449e640c43f585): @user_script:1: @user_script: 1: Unknown Redis command called from Lua script 
+--------------------------------------------------------------------
+【异常时间】：2018-12-29 16:53:52,761 
+异常位置：BlogArticleController.PostBlogArticle异常消息：Object reference not set to an instance of an object.
+--------------------------------------------------------------------

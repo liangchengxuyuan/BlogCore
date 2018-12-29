@@ -8,6 +8,12 @@ using Microsoft.EntityFrameworkCore;
 using Lyp.BlogCore.Models.Models;
 using Lyp.BlogCore.Repository.MySqlEFCore;
 using Lyp.BlogCore.IServices;
+using Castle.Core.Logging;
+using Microsoft.Extensions.Logging;
+using AutoMapper;
+using Lyp.BlogCore.Models.ViewModels;
+using Lyp.BlogCore.Common;
+using Blog.Core.Log;
 
 namespace Lyp.BlogCore.Web.Controllers
 {
@@ -15,17 +21,24 @@ namespace Lyp.BlogCore.Web.Controllers
     {
         //private readonly MySqlDbContext _context;
         private readonly IAdminService adminService;
+        private readonly IMapper IMapper;
+        private readonly ILoggerHelper loggerHelper;
 
-        public AdminsController(IAdminService admin)
+        public AdminsController(IAdminService admin, IMapper IMapper, ILoggerHelper loggerHelper)
         {
             //_context = context;
             this.adminService=admin;
+            this.IMapper = IMapper;
+            this.loggerHelper = loggerHelper;
         }
 
         // GET: Admins
         public async Task<IActionResult> Index()
         {
-            return View(await adminService.Query());
+            var admin = await adminService.Query();
+
+            List<AdminViewModel> list = IMapper.Map<List<AdminViewModel>>(admin);
+            return View(admin);
         }
 
         // GET: Admins/Details/5

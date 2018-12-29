@@ -12,21 +12,22 @@ namespace Lyp.BlogCore.Repository.Base
 {
     public class BaseRepository<TEntity> : IBaseRepository<TEntity> where TEntity : class,new()
     {
-        private readonly MySqlDbContext db=new MySqlDbContext();
-
+        //private readonly MySqlDbContext db=new MySqlDbContext();
+        private readonly MySqlDbContext db;
         internal MySqlDbContext dbContext { get; set; }
 
         internal DbSet<TEntity> _dbSet;
 
-        public BaseRepository()
+        public BaseRepository(MySqlDbContext dbContext)
         {
-            dbContext = db;
+            this.db = dbContext;
+            this.dbContext = dbContext;
             _dbSet = db.Set<TEntity>();
         }
-        public async Task<int> Add(TEntity model)
+        public async Task<bool> Add(TEntity model)
         {
             await _dbSet.AddAsync(model);
-            return await dbContext.SaveChangesAsync();
+            return await dbContext.SaveChangesAsync()>0;
         }
 
         public async Task<bool> Delete(TEntity model)
@@ -38,14 +39,14 @@ namespace Lyp.BlogCore.Repository.Base
         public async Task<bool> DeleteById(object objId)
         {
             var model = await _dbSet.FindAsync(objId);
-            dbContext.Remove(model);
+            _dbSet.Remove(model);
             return await dbContext.SaveChangesAsync()>0;
         }
 
         public async Task<bool> DeleteByIds(object[] lstIds)
         {
             var list = await _dbSet.FindAsync(lstIds);
-            dbContext.RemoveRange(list);
+            _dbSet.RemoveRange(list);
             return await dbContext.SaveChangesAsync() > 0;
         }
 
@@ -57,18 +58,18 @@ namespace Lyp.BlogCore.Repository.Base
         //{
         //    //_dbSet.FindAsync(strWhere);
         //    return await Task.Run(()=>_dbSet.FindAsync(strWhere)) 
-            
+
         //}
+        public List<TEntity> QueryWhere(Expression<Func<TEntity, bool>> predicate)
+        {
+            return _dbSet.Where(predicate).ToList();
+
+        }
 
         public async Task<List<TEntity>> Query(Expression<Func<TEntity, bool>> whereExpression)
         {
             return whereExpression != null ? await Task.Run(() => _dbSet.Where(whereExpression).AsNoTracking().ToList()) : await Task.Run(() => _dbSet.AsQueryable<TEntity>().AsNoTracking().ToList());
         }
-
-        //public async Task<List<TEntity>> Query(Expression<Func<TEntity, bool>> whereExpression, string strOrderFileds)
-        //{
-        //    return whereExpression!=null?await Task.Run(()=> _dbSet.Where(whereExpression).AsNoTracking())
-        //}
 
         public async Task<List<TEntity>> QueryOrder(Expression<Func<TEntity, bool>> whereExpression, Expression<Func<TEntity, object>> orderByExpression, bool isAsc = true)
         {
@@ -79,17 +80,12 @@ namespace Lyp.BlogCore.Repository.Base
             return whereExpression != null ? await Task.Run(() => _dbSet.Where(whereExpression).OrderByDescending(orderByExpression).AsNoTracking().ToList()) : await Task.Run(() => _dbSet.AsNoTracking<TEntity>().ToList());
         }
 
-        //public async Task<List<TEntity>> QueryById(object objId)
-        //{
-            
-        //}
-
         public async Task<IEnumerable<TEntity>> QueryById(Expression<Func<TEntity, bool>> whereExpression)
         {
             return whereExpression != null ? await Task.Run(() => _dbSet.Where(whereExpression).AsNoTracking()) : await Task.Run(() => _dbSet.AsQueryable<TEntity>().AsNoTracking());
         }
 
-        public async Task<List<TEntity>> QueryPage(Expression<Func<TEntity, bool>> whereExpression,Expression<Func<TEntity,bool>> orderByExpression, int intPageIndex, int intPageSize = 20, bool isAsc=true)
+        public async Task<List<TEntity>> QueryPage<TKey>(Expression<Func<TEntity, bool>> whereExpression,Expression<Func<TEntity, TKey>> orderByExpression, int intPageIndex, int intPageSize = 20, bool isAsc=true)
         {
             int rowcount = _dbSet.Count(whereExpression);
             if(isAsc)

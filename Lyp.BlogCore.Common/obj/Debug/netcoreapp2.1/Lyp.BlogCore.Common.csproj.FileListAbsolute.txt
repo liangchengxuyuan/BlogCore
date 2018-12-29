@@ -7,3 +7,17 @@ G:\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.Ass
 G:\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.AssemblyInfo.cs
 G:\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.dll
 G:\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.pdb
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Common\bin\Debug\netcoreapp2.1\Lyp.BlogCore.Common.deps.json
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Common\bin\Debug\netcoreapp2.1\Lyp.BlogCore.Common.dll
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Common\bin\Debug\netcoreapp2.1\Lyp.BlogCore.Common.pdb
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Common\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Features.dll
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Common\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Features.xml
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.csprojAssemblyReference.cache
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.csproj.CoreCompileInputs.cache
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.AssemblyInfoInputs.cache
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.AssemblyInfo.cs
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.csproj.CopyComplete
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.dll
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Common\obj\Debug\netcoreapp2.1\Lyp.BlogCore.Common.pdb
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Common\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Abstractions.dll
+F:\G盘文件\Blog.Core\Lyp.BlogCore.Common\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Http.Abstractions.xml
